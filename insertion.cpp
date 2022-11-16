@@ -11,7 +11,6 @@ void insertionSort(int arr[], int n)
         {
             arr[prev + 1] = arr[prev];
             prev--;
-            ;
         }
         arr[prev + 1] = cur;
     }
